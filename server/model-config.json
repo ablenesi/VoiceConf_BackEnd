@@ -1,0 +1,32 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "user": {
+    "dataSource": null,
+    "public": true
+  },
+  "conference": {
+    "dataSource": null,
+    "public": true
+  },
+  "friend": {
+    "dataSource": null,
+    "public": true
+  },
+  "invite": {
+    "dataSource": null,
+    "public": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "conference",
+  "plural": "conferences",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "number",
+      "required": true
+    },
+    "closed": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "validations": [],
+  "relations": {
+    "friends": {
+      "type": "hasMany",
+      "model": "friend",
+      "foreignKey": "",
+      "through": "invite"
+    },
+    "user": {
+      "type": "belongsTo",
+      "model": "user",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

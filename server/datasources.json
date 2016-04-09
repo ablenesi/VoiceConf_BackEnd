@@ -1,0 +1,11 @@
+{
+  "mongodb": {
+    "host": "ds019990.mlab.com",
+    "port": 19990,
+    "database": "voice_conf",
+    "password": "pQL6J8LjnF3XpBkC",
+    "name": "mongodb",
+    "user": "voice_conf_api",
+    "connector": "mongodb"
+  }
+}

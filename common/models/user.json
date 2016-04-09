@@ -1,0 +1,32 @@
+{
+  "name": "user",
+  "plural": "users",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "avatar": {
+      "type": "string"
+    },
+    "authData": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "conferences": {
+      "type": "hasMany",
+      "model": "conference",
+      "foreignKey": ""
+    },
+    "friends": {
+      "type": "hasMany",
+      "model": "friend",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
