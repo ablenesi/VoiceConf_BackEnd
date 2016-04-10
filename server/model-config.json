@@ -14,19 +14,19 @@
     ]
   },
   "user": {
-    "dataSource": null,
+    "dataSource": "mongodb",
     "public": true
   },
   "conference": {
-    "dataSource": null,
+    "dataSource": "mongodb",
     "public": true
   },
   "friend": {
-    "dataSource": null,
+    "dataSource": "mongodb",
     "public": true
   },
   "invite": {
-    "dataSource": null,
+    "dataSource": "mongodb",
     "public": true
   }
 }
